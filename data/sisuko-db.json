@@ -1,0 +1,392 @@
+{
+  "sops": [
+    {
+      "id": "sop-1",
+      "code": "SOP-PATEN-01",
+      "group": "LAYANAN_DOKUMEN",
+      "serviceType": "KTP",
+      "title": "Pelayanan Perekaman & Penggantian KTP-el",
+      "legalBasis": "UU No. 24 Tahun 2013 & Perbup Sidoarjo No. 48 Tahun 2022 tentang Penyelenggaraan Adminduk",
+      "estimatedTime": "15 menit (perekaman) / 1 hari kerja (pengambilan di Kecamatan)",
+      "fee": "Gratis (Rp 0)",
+      "requirements": [
+        "Berusia minimal 17 tahun atau sudah/pernah menikah.",
+        "Fotokopi Kartu Keluarga (KK) terbaru yang sudah memiliki barcode TTE.",
+        "Surat Pengantar dari Pemerintah Desa (berstempel basah / TTE Kepala Desa).",
+        "Untuk KTP-el rusak/perubahan data: membawa KTP-el lama asli.",
+        "Untuk KTP-el hilang: melampirkan Surat Keterangan Kehilangan dari Kepolisian (Polsek Sukodono)."
+      ],
+      "notes": "Perekaman biometrik wajib dihadiri langsung oleh pemohon dan tidak dapat diwakilkan. Pengambilan dapat diwakilkan anggota keluarga dalam satu KK dengan membawa KTP pengambil.",
+      "updatedAt": "2026-10-12",
+      "active": true
+    },
+    {
+      "id": "sop-2",
+      "code": "SOP-PATEN-02",
+      "group": "LAYANAN_DOKUMEN",
+      "serviceType": "KK",
+      "title": "Penerbitan & Pembaruan Kartu Keluarga (KK)",
+      "legalBasis": "Permendagri No. 108 Tahun 2019 & SOP Pelayanan PATEN Kecamatan Sukodono",
+      "estimatedTime": "1 hari kerja (verifikasi & pengiriman berkas SIAK Terpadu)",
+      "fee": "Gratis (Rp 0)",
+      "requirements": [
+        "Formulir Permohonan F-1.02 dari Desa/Kelurahan.",
+        "Kartu Keluarga (KK) asli lama (untuk pembaruan/penambahan anggota keluarga).",
+        "Surat Pengantar Desa bermaterai/stempel resmi Kepala Desa.",
+        "Fotokopi Buku Nikah / Akta Perkawinan (jika perubahan status perkawinan atau pembuatan KK baru).",
+        "Surat Keterangan Lahir dari Bidan/RS (untuk penambahan anak baru lahir) atau Akta Kematian (untuk pengurangan anggota)."
+      ],
+      "notes": "Pastikan penulisan nama, tempat/tanggal lahir, dan NIK konsisten antara ijazah, akta lahir, dan buku nikah.",
+      "updatedAt": "2026-10-18",
+      "active": true
+    },
+    {
+      "id": "sop-3",
+      "code": "SOP-PATEN-03",
+      "group": "LAYANAN_DOKUMEN",
+      "serviceType": "PINDAH_DATANG",
+      "title": "Surat Keterangan Pindah Warga Negara Indonesia (SKPWNI / Pindah Datang)",
+      "legalBasis": "Permendagri No. 108 Tahun 2019 Pasal 24–29 tentang Perpindahan Penduduk",
+      "estimatedTime": "20 menit (antar desa/kecamatan) / 1 hari kerja (antar kabupaten/provinsi)",
+      "fee": "Gratis (Rp 0)",
+      "requirements": [
+        "Formulir Pendaftaran Perpindahan Penduduk (F-1.03) yang ditandatangani pemohon dan Kepala Desa.",
+        "Kartu Keluarga (KK) asli dan KTP-el asli seluruh anggota keluarga yang pindah.",
+        "Surat Keterangan Pindah (SKPWNI) dari daerah asal (khusus pemohon pindah datang ke Sukodono).",
+        "Surat pernyataan tidak keberatan dari pemilik rumah/kk tujuan jika menumpang KK.",
+        "Fotokopi Buku Nikah apabila status kawin (untuk penyesuaian KK tujuan)."
+      ],
+      "notes": "Pemohon pindah keluar kabupaten wajib mengurus surat pindah sebelum menghapus data dari KK asal.",
+      "updatedAt": "2026-09-25",
+      "active": true
+    },
+    {
+      "id": "sop-4",
+      "code": "SOP-PATEN-04",
+      "group": "LAYANAN_DOKUMEN",
+      "serviceType": "SURAT_NIKAH",
+      "title": "Rekomendasi Nikah & Dispensasi Nikah Kecamatan",
+      "legalBasis": "PMA No. 20 Tahun 2019 tentang Pencatatan Pernikahan & SOP PATEN Kec. Sukodono",
+      "estimatedTime": "15 menit (berkas lengkap langsung diparaf Kasi Pelayanan & Camat)",
+      "fee": "Gratis (Rp 0)",
+      "requirements": [
+        "Surat Pengantar Nikah dari Desa (Model N1, N2, N4) yang telah ditandatangani Kepala Desa.",
+        "Fotokopi KTP-el dan KK kedua calon mempelai serta orang tua.",
+        "Fotokopi Akta Kelahiran atau Ijazah terakhir calon pengantin.",
+        "Pas foto latar biru ukuran 2x3 (4 lembar) dan 4x6 (2 lembar).",
+        "Khusus Dispensasi Nikah (pelaksanaan < 10 hari kerja sejak pendaftaran KUA): surat pengantar KUA & permohonan tertulis."
+      ],
+      "notes": "Penandatanganan dispensasi nikah oleh Camat Sukodono dilakukan pada jam kerja setelah berkas diverifikasi Kasi Pelayanan Umum.",
+      "updatedAt": "2026-11-02",
+      "active": true
+    },
+    {
+      "id": "sop-5",
+      "code": "SOP-PATEN-05",
+      "group": "LAYANAN_DOKUMEN",
+      "serviceType": "WARIS",
+      "title": "Registrasi & Pengesahan Surat Keterangan Ahli Waris",
+      "legalBasis": "SE Camat Sukodono No. 470/112/438.7.9/2025 & KUHPerdata / Kompilasi Hukum Islam",
+      "estimatedTime": "2 hari kerja (penelitian kelengkapan dokumen dan tanda tangan saksi)",
+      "fee": "Gratis (Rp 0)",
+      "requirements": [
+        "Surat Pernyataan Ahli Waris dari Desa yang ditandatangani seluruh ahli waris di atas materai Rp 10.000 dan diketahui 2 orang saksi serta Kepala Desa.",
+        "Fotokopi Akta Kematian / Surat Kematian Pewaris yang dilegalisir.",
+        "Fotokopi Surat Nikah / Akta Perkawinan Pewaris.",
+        "Fotokopi KTP-el dan KK seluruh ahli waris yang masih hidup.",
+        "Fotokopi Akta Kelahiran seluruh anak / ahli waris."
+      ],
+      "notes": "Apabila ada ahli waris yang berada di luar kota, wajib melampirkan Surat Kuasa bermaterai yang disahkan pejabat setempat.",
+      "updatedAt": "2026-10-29",
+      "active": true
+    },
+    {
+      "id": "sop-6",
+      "code": "SOP-PATEN-06",
+      "group": "LAYANAN_DOKUMEN",
+      "serviceType": "SKU",
+      "title": "Legalisasi Surat Keterangan Usaha (SKU) & Pendampingan NIB UMKM",
+      "legalBasis": "PP No. 5 Tahun 2021 tentang Perizinan Berusaha Berbasis Risiko & Perda Kab. Sidoarjo",
+      "estimatedTime": "15 menit (pengesahan SKU Kecamatan)",
+      "fee": "Gratis (Rp 0)",
+      "requirements": [
+        "Surat Keterangan Usaha asli dari Pemerintah Desa setempat (memuat jenis usaha, alamat usaha, dan lama usaha).",
+        "Fotokopi KTP-el pemilik usaha (berdomisili atau memiliki lokasi usaha di Kecamatan Sukodono).",
+        "Fotokopi Kartu Keluarga (KK) pemohon.",
+        "Foto tempat usaha atau produk UMKM (untuk verifikasi fisik / pengajuan OSS NIB).",
+        "Nomor telepon / email aktif apabila sekaligus membutuhkan bantuan penerbitan NIB OSS."
+      ],
+      "notes": "SKU berlaku sebagai pengantar pengajuan KUR perbankan maupun kelengkapan pendaftaran NIB di sistem OSS RBA.",
+      "updatedAt": "2026-11-05",
+      "active": true
+    },
+    {
+      "id": "sop-umum-1",
+      "code": "SOP-UMUM-01",
+      "group": "STANDAR_UMUM",
+      "serviceType": "UMUM",
+      "title": "Alur Standar Pelayanan Terpadu PATEN & Jam Operasional",
+      "legalBasis": "Permendagri No. 4 Tahun 2010 tentang Pedoman Pelayanan Administrasi Terpadu Kecamatan (PATEN)",
+      "estimatedTime": "Maksimal 15–20 menit di loket penerimaan berkas",
+      "fee": "Gratis (Rp 0)",
+      "requirements": [
+        "Jam Operasional Loket: Senin–Kamis pukul 08.00–15.30 WIB (istirahat 12.00–13.00 WIB), Jumat pukul 08.00–14.30 WIB.",
+        "Tahap 1 (Pra-Verifikasi & Antrean): Warga mengecek kelengkapan lewat SI-SUKO AI dan mengambil nomor antrean online/loket.",
+        "Tahap 2 (Diterima Loket): Petugas Loket 1/2/3 memverifikasi berkas fisik asli, menerbitkan kode lacak SKD-2026-XXXX, dan menginput ke register.",
+        "Tahap 3 (Verifikasi Kasi): Kasi Pelayanan Umum memeriksa keabsahan administrasi dan kesesuaian data desa.",
+        "Tahap 4 (Paraf Camat & Penyerahan): Dokumen diparaf/TTE Camat Sukodono lalu berstatus Siap Diambil di loket penyerahan."
+      ],
+      "notes": "Pemohon dapat memantau status berkas secara waktu nyata melalui menu Antrean & Layanan menggunakan kode lacak.",
+      "updatedAt": "2026-11-10",
+      "active": true
+    },
+    {
+      "id": "sop-umum-2",
+      "code": "SOP-UMUM-02",
+      "group": "STANDAR_UMUM",
+      "serviceType": "UMUM",
+      "title": "Layanan Prioritas Kelompok Rentan & Fasilitas Khusus",
+      "legalBasis": "UU No. 25 Tahun 2009 tentang Pelayanan Publik Pasal 29 & Standar Pelayanan Inklusif Kab. Sidoarjo",
+      "estimatedTime": "Langsung dilayani tanpa menunggu antrean reguler",
+      "fee": "Gratis (Rp 0)",
+      "requirements": [
+        "Pemohon prioritas meliputi: Lanjut Usia (≥ 60 tahun), Ibu Hamil/Menyusui, Penyandang Disabilitas, dan warga dalam kondisi sakit.",
+        "Petugas loket wajib mendahulukan pemanggilan nomor antrean khusus prioritas dan menyediakan kursi roda/jalur landai.",
+        "Untuk warga lansia/sakit keras yang tidak dapat hadir perekaman KTP-el, keluarga dapat mengajukan permohonan layanan jemput bola melalui Pemerintah Desa."
+      ],
+      "notes": "Disediakan ruang laktasi, area tunggu ramah disabilitas, dan pendampingan pengisian formulir oleh petugas informasi.",
+      "updatedAt": "2026-11-10",
+      "active": true
+    },
+    {
+      "id": "sop-umum-3",
+      "code": "SOP-UMUM-03",
+      "group": "STANDAR_UMUM",
+      "serviceType": "UMUM",
+      "title": "Maklumat Pelayanan, Kebijakan Gratis & Larangan Pungutan Liar",
+      "legalBasis": "UU No. 25 Tahun 2009 & Saber Pungli Kabupaten Sidoarjo",
+      "estimatedTime": "Berlaku permanen di seluruh loket PATEN",
+      "fee": "Gratis (Rp 0) — Tidak ada biaya administrasi",
+      "requirements": [
+        "Seluruh layanan administrasi kependudukan dan rekomendasi PATEN di Kecamatan Sukodono adalah GRATIS (Rp 0).",
+        "Petugas dilarang keras menerima imbalan, uang terima kasih, atau titipan berkas melalui perantara/calo tanpa surat kuasa resmi.",
+        "Pemohon yang mengurus mewakili anggota keluarga wajib berada dalam satu Kartu Keluarga (KK) atau membawa Surat Kuasa bermaterai Rp 10.000."
+      ],
+      "notes": "Setiap berkas yang diterima wajib diberikan tanda terima / kode pelacakan resmi.",
+      "updatedAt": "2026-11-10",
+      "active": true
+    },
+    {
+      "id": "sop-umum-4",
+      "code": "SOP-UMUM-04",
+      "group": "STANDAR_UMUM",
+      "serviceType": "UMUM",
+      "title": "Penanganan Berkas Perlu Revisi & Eskalasi Kendala Data",
+      "legalBasis": "SOP Pengendalian Mutu & Validasi SIAK Kecamatan Sukodono",
+      "estimatedTime": "Maksimal 3 hari kerja masa tunggu perbaikan berkas",
+      "fee": "Gratis (Rp 0)",
+      "requirements": [
+        "Jika berkas kurang lengkap atau foto dokumen buram/terpotong, petugas mengubah status menjadi \"Perlu Revisi\" disertai catatan spesifik.",
+        "Warga dapat mengunggah ulang foto dokumen melalui fitur Cek Berkas sebelum kembali ke loket atau menghubungi operator desa terkait.",
+        "Jika ditemukan perbedaan data NIK/nama antar dokumen (KTP, KK, Ijazah, Buku Nikah), petugas mengarahkan ke meja Pengolah Data untuk koordinasi verifikasi SIAK ke Dispendukcapil Sidoarjo."
+      ],
+      "notes": "Berkas revisi yang sudah dilengkapi diproses lanjutan tanpa harus mengulang antrean pendaftaran dari awal.",
+      "updatedAt": "2026-11-10",
+      "active": true
+    },
+    {
+      "id": "sop-umum-5",
+      "code": "SOP-UMUM-05",
+      "group": "STANDAR_UMUM",
+      "serviceType": "UMUM",
+      "title": "Mekanisme Pengaduan Masyarakat & Survei Kepuasan (IKM)",
+      "legalBasis": "PermenPANRB No. 14 Tahun 2017 & Pengelolaan Pengaduan SP4N-LAPOR!",
+      "estimatedTime": "Tindak lanjut awal maksimal 1x24 jam hari kerja",
+      "fee": "Gratis (Rp 0)",
+      "requirements": [
+        "Warga berhak menyampaikan kritik, saran, atau pengaduan pelayanan melalui Loket Pengaduan Kecamatan Sukodono, kotak saran resmi, atau kanal nasional SP4N-LAPOR!.",
+        "Setiap pengaduan dicatat oleh Pengolah Data & Informasi dan diteruskan kepada Kasi Pelayanan Umum serta Camat Sukodono untuk penyelesaian.",
+        "Setelah layanan selesai, warga diajak mengisi Indeks Kepuasan Masyarakat (IKM) sebagai bahan evaluasi mutu bulanan untuk Pemkab Sidoarjo."
+      ],
+      "notes": "Identitas pelapor dilindungi sesuai ketentuan peraturan perundang-undangan.",
+      "updatedAt": "2026-11-10",
+      "active": true
+    }
+  ],
+  "queue": [
+    {
+      "id": "q-101",
+      "queueNumber": "A-038",
+      "trackingCode": "SKD-2026-0838",
+      "applicantName": "Siti Aminah",
+      "maskedNik": "351513******0004",
+      "village": "Jumputrejo",
+      "serviceType": "KTP",
+      "submittedAt": "08:15 WIB",
+      "estimatedReady": "09:00 WIB",
+      "status": "SIAP_DIAMBIL",
+      "officerNote": "Berkas lengkap, KTP-el pengganti siap diambil di Loket 1.",
+      "counter": "Loket 1"
+    },
+    {
+      "id": "q-102",
+      "queueNumber": "B-021",
+      "trackingCode": "SKD-2026-0839",
+      "applicantName": "Ahmad Fauzi",
+      "maskedNik": "351513******0019",
+      "village": "Anggaswangi",
+      "serviceType": "KK",
+      "submittedAt": "08:40 WIB",
+      "estimatedReady": "11:30 WIB",
+      "status": "PARAF_CAMAT",
+      "officerNote": "Lolos verifikasi Kasi Pelayanan, menunggu paraf Camat.",
+      "counter": "Loket 1"
+    },
+    {
+      "id": "q-103",
+      "queueNumber": "C-014",
+      "trackingCode": "SKD-2026-0840",
+      "applicantName": "Hendra Wijaya",
+      "maskedNik": "351513******0082",
+      "village": "Pekarungan",
+      "serviceType": "PINDAH_DATANG",
+      "submittedAt": "09:05 WIB",
+      "estimatedReady": "13:00 WIB",
+      "status": "VERIFIKASI_KASI",
+      "officerNote": "Sedang dicocokkan dengan SKPWNI asal Kabupaten Mojokerto.",
+      "counter": "Loket 2"
+    },
+    {
+      "id": "q-104",
+      "queueNumber": "D-009",
+      "trackingCode": "SKD-2026-0841",
+      "applicantName": "Nurul Hidayati",
+      "maskedNik": "351513******0031",
+      "village": "Masanganwetan",
+      "serviceType": "SURAT_NIKAH",
+      "submittedAt": "09:22 WIB",
+      "estimatedReady": "10:30 WIB",
+      "status": "SIAP_DIAMBIL",
+      "officerNote": "Dispensasi nikah telah ditandatangani Camat.",
+      "counter": "Loket 2"
+    },
+    {
+      "id": "q-105",
+      "queueNumber": "E-005",
+      "trackingCode": "SKD-2026-0842",
+      "applicantName": "Bambang Sutrisno",
+      "maskedNik": "351513******0067",
+      "village": "Suruh",
+      "serviceType": "WARIS",
+      "submittedAt": "09:45 WIB",
+      "estimatedReady": "Menunggu Revisi",
+      "status": "PERLU_REVISI",
+      "officerNote": "Kurang fotokopi Akta Kelahiran ahli waris ke-3 dan stempel basah desa.",
+      "counter": "Loket 3"
+    },
+    {
+      "id": "q-106",
+      "queueNumber": "F-017",
+      "trackingCode": "SKD-2026-0843",
+      "applicantName": "Dewi Kartika Sari",
+      "maskedNik": "351513******0045",
+      "village": "Sukodono",
+      "serviceType": "SKU",
+      "submittedAt": "10:10 WIB",
+      "estimatedReady": "10:45 WIB",
+      "status": "DITERIMA_LOKET",
+      "officerNote": "Berkas diterima petugas Loket 3, sedang input register SKU.",
+      "counter": "Loket 3"
+    },
+    {
+      "id": "q-107",
+      "queueNumber": "A-044",
+      "trackingCode": "SKD-2026-0844",
+      "applicantName": "Mochammad Rizki",
+      "maskedNik": "351513******0053",
+      "village": "Kebonagung",
+      "serviceType": "KTP",
+      "submittedAt": "10:28 WIB",
+      "estimatedReady": "11:00 WIB",
+      "status": "VERIFIKASI_KASI",
+      "officerNote": "Perekaman biometrik selesai, verifikasi data SIAK.",
+      "counter": "Loket 1"
+    },
+    {
+      "id": "q-108",
+      "queueNumber": "B-024",
+      "trackingCode": "SKD-2026-0845",
+      "applicantName": "Sri Wahyuni",
+      "maskedNik": "351513******0098",
+      "village": "Wilayut",
+      "serviceType": "KK",
+      "submittedAt": "10:42 WIB",
+      "estimatedReady": "Menunggu Revisi",
+      "status": "PERLU_REVISI",
+      "officerNote": "Foto buku nikah terpotong dan halaman identitas tidak terbaca.",
+      "counter": "Loket 1"
+    }
+  ],
+  "staff": [
+    {
+      "id": "staff-1",
+      "fullName": "Drs. Hendra Kusuma, M.Si",
+      "nip": "197405122001121003",
+      "username": "kasi.pelayanan",
+      "email": "kasi.pelayanan@sukodono.sidoarjokab.go.id",
+      "role": "KASI_PELAYANAN",
+      "counterAssignment": "Ruang Verifikasi Kasi",
+      "pinCode": "123456",
+      "active": true,
+      "lastLogin": "Hari ini, 08:02 WIB"
+    },
+    {
+      "id": "staff-2",
+      "fullName": "Nurul Azmi, S.Kom",
+      "nip": "199208192019032011",
+      "username": "pengolah.data",
+      "email": "nurul.azmi@sukodono.sidoarjokab.go.id",
+      "role": "PENGOLAH_DATA",
+      "counterAssignment": "Meja Back-Office & SIAK",
+      "pinCode": "123456",
+      "active": true,
+      "lastLogin": "Hari ini, 08:52 WIB"
+    },
+    {
+      "id": "staff-3",
+      "fullName": "Rina Kusumawati, A.Md",
+      "nip": "199004212015042002",
+      "username": "loket1.adminduk",
+      "email": "loket1.sukodono@sukodono.sidoarjokab.go.id",
+      "role": "PETUGAS_LOKET_1",
+      "counterAssignment": "Loket 1 (KTP-el & KK)",
+      "pinCode": "123456",
+      "active": true,
+      "lastLogin": "Hari ini, 08:00 WIB"
+    },
+    {
+      "id": "staff-4",
+      "fullName": "Bagus Prasetyo, S.AP",
+      "nip": "199411032020121005",
+      "username": "loket2.pindah",
+      "email": "loket2.sukodono@sukodono.sidoarjokab.go.id",
+      "role": "PETUGAS_LOKET_2",
+      "counterAssignment": "Loket 2 (Pindah & Nikah)",
+      "pinCode": "123456",
+      "active": true,
+      "lastLogin": "Hari ini, 08:04 WIB"
+    },
+    {
+      "id": "staff-5",
+      "fullName": "Dian Permatasari, S.E",
+      "nip": "199502172022032009",
+      "username": "loket3.umkm",
+      "email": "loket3.sukodono@sukodono.sidoarjokab.go.id",
+      "role": "PETUGAS_LOKET_3",
+      "counterAssignment": "Loket 3 (Waris & SKU)",
+      "pinCode": "123456",
+      "active": true,
+      "lastLogin": "Hari ini, 08:06 WIB"
+    }
+  ]
+}

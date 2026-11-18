@@ -1,0 +1,6 @@
+{
+  "name": "SI-SUKO AI — Pelayanan Publik Kecamatan Sukodono",
+  "description": "Sistem Informasi & Asisten Pelayanan Cerdas Kecamatan Sukodono, Kabupaten Sidoarjo untuk administrasi kependudukan, konsultasi SOP AI, pra-verifikasi berkas, antrean PATEN, dan rekap data 19 desa.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
